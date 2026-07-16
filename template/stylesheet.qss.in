@@ -160,13 +160,6 @@ QGroupBox
     min-height: 1.2em;
     border: 0.04em solid ^midtone^;
     border-radius: 0.09em;
-    /**
-     * This gives us enough space at the top to ensure we can move the
-     * title to be inside the guidelines, and the padding at the top
-     * ensures we have space below the title.
-     */
-    margin-top: 0.5em;
-    padding-top: 1em;
 }
 
 QGroupBox:focus
