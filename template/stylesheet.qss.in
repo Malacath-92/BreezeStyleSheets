@@ -210,7 +210,7 @@ QCheckBox::indicator:unchecked:focus,
 QTreeView::indicator:unchecked,
 QTreeView::indicator:unchecked:focus
 {
-    border-image: url(^style^checkbox_unchecked_disabled.svg);
+    image: url(^style^checkbox_unchecked_disabled.svg);
 }
 
 QGroupBox::indicator:unchecked,
@@ -222,14 +222,14 @@ QGroupBox::indicator:unchecked:hover,
 QGroupBox::indicator:unchecked:pressed
 {
     border: none;
-    border-image: url(^style^checkbox_unchecked.svg);
+    image: url(^style^checkbox_unchecked.svg);
 }
 
 QCheckBox::indicator:checked,
 QTreeView::indicator:checked,
 QGroupBox::indicator:checked
 {
-    border-image: url(^style^checkbox_checked.svg);
+    image: url(^style^checkbox_checked.svg);
 }
 
 QCheckBox::indicator:checked:hover,
@@ -243,13 +243,13 @@ QGroupBox::indicator:checked:focus,
 QGroupBox::indicator:checked:pressed
 {
     border: none;
-    border-image: url(^style^checkbox_checked.svg);
+    image: url(^style^checkbox_checked.svg);
 }
 
 QCheckBox::indicator:indeterminate,
 QTreeView::indicator:indeterminate
 {
-    border-image: url(^style^checkbox_indeterminate.svg);
+    image: url(^style^checkbox_indeterminate.svg);
 }
 
 QCheckBox::indicator:indeterminate:focus,
@@ -259,27 +259,27 @@ QTreeView::indicator:indeterminate:focus,
 QTreeView::indicator:indeterminate:hover,
 QTreeView::indicator:indeterminate:pressed
 {
-    border-image: url(^style^checkbox_indeterminate.svg);
+    image: url(^style^checkbox_indeterminate.svg);
 }
 
 QCheckBox::indicator:indeterminate:disabled,
 QTreeView::indicator:indeterminate:disabled
 {
-    border-image: url(^style^checkbox_indeterminate_disabled.svg);
+    image: url(^style^checkbox_indeterminate_disabled.svg);
 }
 
 QCheckBox::indicator:checked:disabled,
 QTreeView::indicator:checked:disabled,
 QGroupBox::indicator:checked:disabled
 {
-    border-image: url(^style^checkbox_checked_disabled.svg);
+    image: url(^style^checkbox_checked_disabled.svg);
 }
 
 QCheckBox::indicator:unchecked:disabled,
 QTreeView::indicator:unchecked:disabled,
 QGroupBox::indicator:unchecked:disabled
 {
-    border-image: url(^style^checkbox_unchecked_disabled.svg);
+    image: url(^style^checkbox_unchecked_disabled.svg);
 }
 
 QRadioButton
@@ -304,7 +304,7 @@ QRadioButton::indicator
 QRadioButton::indicator:unchecked,
 QRadioButton::indicator:unchecked:focus
 {
-    border-image: url(^style^radio_unchecked_disabled.svg);
+    image: url(^style^radio_unchecked_disabled.svg);
 }
 
 QRadioButton::indicator:unchecked:hover,
@@ -312,14 +312,14 @@ QRadioButton::indicator:unchecked:pressed
 {
     border: none;
     outline: none;
-    border-image: url(^style^radio_unchecked.svg);
+    image: url(^style^radio_unchecked.svg);
 }
 
 QRadioButton::indicator:checked
 {
     border: none;
     outline: none;
-    border-image: url(^style^radio_checked.svg);
+    image: url(^style^radio_checked.svg);
 }
 
 QRadioButton::indicator:checked:hover,
@@ -328,18 +328,18 @@ QRadioButton::indicator:checked:pressed
 {
     border: none;
     outline: none;
-    border-image: url(^style^radio_checked.svg);
+    image: url(^style^radio_checked.svg);
 }
 
 QRadioButton::indicator:checked:disabled
 {
     outline: none;
-    border-image: url(^style^radio_checked_disabled.svg);
+    image: url(^style^radio_checked_disabled.svg);
 }
 
 QRadioButton::indicator:unchecked:disabled
 {
-    border-image: url(^style^radio_unchecked_disabled.svg);
+    image: url(^style^radio_unchecked_disabled.svg);
 }
 
 QMenuBar
@@ -418,55 +418,55 @@ QMenu::indicator
 
 QMenu::indicator:non-exclusive:unchecked
 {
-    border-image: url(^style^checkbox_unchecked_disabled.svg);
+    image: url(^style^checkbox_unchecked_disabled.svg);
 }
 
 QMenu::indicator:non-exclusive:unchecked:selected
 {
-    border-image: url(^style^checkbox_unchecked_disabled.svg);
+    image: url(^style^checkbox_unchecked_disabled.svg);
 }
 
 QMenu::indicator:non-exclusive:checked
 {
-    border-image: url(^style^checkbox_checked.svg);
+    image: url(^style^checkbox_checked.svg);
 }
 
 QMenu::indicator:non-exclusive:checked:selected
 {
-    border-image: url(^style^checkbox_checked.svg);
+    image: url(^style^checkbox_checked.svg);
 }
 
 QMenu::indicator:exclusive:unchecked
 {
-    border-image: url(^style^radio_unchecked_disabled.svg);
+    image: url(^style^radio_unchecked_disabled.svg);
 }
 
 QMenu::indicator:exclusive:unchecked:selected
 {
-    border-image: url(^style^radio_unchecked_disabled.svg);
+    image: url(^style^radio_unchecked_disabled.svg);
 }
 
 QMenu::indicator:exclusive:checked
 {
-    border-image: url(^style^radio_checked.svg);
+    image: url(^style^radio_checked.svg);
 }
 
 QMenu::indicator:exclusive:checked:selected
 {
-    border-image: url(^style^radio_checked.svg);
+    image: url(^style^radio_checked.svg);
 }
 
 QMenu::right-arrow
 {
     margin: 0.23em;
-    border-image: url(^style^right_arrow.svg);
+    image: url(^style^right_arrow.svg);
     width: 0.5em;
     height: 0.8em;
 }
 
 QMenu::right-arrow:disabled
 {
-    border-image: url(^style^right_arrow_disabled.svg);
+    image: url(^style^right_arrow_disabled.svg);
 }
 
 QAbstractItemView
@@ -549,7 +549,7 @@ QScrollBar::handle:horizontal:hover
 QScrollBar::add-line:horizontal
 {
     margin: 0em 0.13em 0em 0.13em;
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     width: 0.41em;
     height: 0.41em;
     subcontrol-position: right;
@@ -559,7 +559,7 @@ QScrollBar::add-line:horizontal
 QScrollBar::sub-line:horizontal
 {
     margin: 0em 0.13em 0em 0.13em;
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     width: 0.41em;
     height: 0.41em;
     subcontrol-position: left;
@@ -569,7 +569,7 @@ QScrollBar::sub-line:horizontal
 QScrollBar::add-line:horizontal:hover,
 QScrollBar::add-line:horizontal:on
 {
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     width: 0.41em;
     height: 0.41em;
     subcontrol-position: right;
@@ -579,7 +579,7 @@ QScrollBar::add-line:horizontal:on
 QScrollBar::sub-line:horizontal:hover,
 QScrollBar::sub-line:horizontal:on
 {
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     width: 0.41em;
     height: 0.41em;
     subcontrol-position: left;
@@ -629,7 +629,7 @@ QScrollBar::handle:vertical:hover
 QScrollBar::sub-line:vertical
 {
     margin: 0.13em 0em 0.13em 0em;
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     height: 0.41em;
     width: 0.41em;
     subcontrol-position: top;
@@ -639,7 +639,7 @@ QScrollBar::sub-line:vertical
 QScrollBar::add-line:vertical
 {
     margin: 0.13em 0em 0.13em 0em;
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     height: 0.41em;
     width: 0.41em;
     subcontrol-position: bottom;
@@ -649,7 +649,7 @@ QScrollBar::add-line:vertical
 QScrollBar::sub-line:vertical:hover,
 QScrollBar::sub-line:vertical:on
 {
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     height: 0.41em;
     width: 0.41em;
     subcontrol-position: top;
@@ -659,7 +659,7 @@ QScrollBar::sub-line:vertical:on
 QScrollBar::add-line:vertical:hover,
 QScrollBar::add-line:vertical:on
 {
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     height: 0.41em;
     width: 0.41em;
     subcontrol-position: bottom;
@@ -695,7 +695,7 @@ QPlainTextEdit
 
 QSizeGrip
 {
-    border-image: url(^style^sizegrip.svg);
+    image: url(^style^sizegrip.svg);
     width: 0.5em;
     height: 0.5em;
 }
@@ -775,22 +775,22 @@ QToolBar:vertical
 
 QToolBar::handle:horizontal
 {
-    border-image: url(^style^hmovetoolbar.svg);
+    image: url(^style^hmovetoolbar.svg);
 }
 
 QToolBar::handle:vertical
 {
-    border-image: url(^style^vmovetoolbar.svg);
+    image: url(^style^vmovetoolbar.svg);
 }
 
 QToolBar::separator:horizontal
 {
-    border-image: url(^style^hseptoolbar.svg);
+    image: url(^style^hseptoolbar.svg);
 }
 
 QToolBar::separator:vertical
 {
-    border-image: url(^style^vseptoolbar.svg);
+    image: url(^style^vseptoolbar.svg);
 }
 
 QToolBar QToolButton
@@ -963,7 +963,7 @@ QColumnView
 
 QColumnViewGrip
 {
-    border-image: url(^style^sizegrip.svg);
+    image: url(^style^sizegrip.svg);
 }
 
 /* Each column in the view is a QAbstractItemView. */
@@ -1335,7 +1335,7 @@ QTabBar:focus
 QTabBar::close-button
 {
     /* Doesn't seem possible to resize these buttons */
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     image: url(^style^close.svg);
     background: transparent;
 }
@@ -1737,7 +1737,7 @@ QDockWidget
  *  cannot be removed.
  *
  *  There is a bug in non-Breeze styles, where the icons are small. It
- *  doesn't change if we use `image` instead of `border-image`, nor if
+ *  doesn't change if we use `image` instead of `image`, nor if
  *  we use `qproperty-icon`, etc. The icon seem to be half the size
  *  of our desired values.
  */
@@ -1753,7 +1753,7 @@ QDockWidget::float-button
 
 QDockWidget::float-button
 {
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     image: url(^style^undock.svg);
 }
 
@@ -1770,7 +1770,7 @@ QDockWidget::float-button:pressed
 
 QDockWidget::close-button
 {
-    border-image: url(^style^transparent.svg);
+    image: url(^style^transparent.svg);
     image: url(^style^close.svg);
 }
 
@@ -1802,7 +1802,7 @@ QListView:!selected
 
 QTreeView::branch:has-siblings
 {
-    border-image: url(^style^vline.svg);
+    image: url(^style^vline.svg);
     image: none;
 }
 
@@ -1815,12 +1815,12 @@ QTreeView::branch:!has-siblings
 
 QTreeView::branch:has-siblings:adjoins-item
 {
-    border-image: url(^style^branch_more.svg);
+    image: url(^style^branch_more.svg);
 }
 
 QTreeView::branch:!has-children:!has-siblings:adjoins-item
 {
-    border-image: url(^style^branch_end.svg);
+    image: url(^style^branch_end.svg);
 }
 
 QTreeView::branch:has-children:!has-siblings:closed,
@@ -1838,13 +1838,13 @@ QTreeView::branch:closed:has-children:has-siblings:hover
 QTreeView::branch:has-children:!has-siblings:closed,
 QTreeView::branch:open:has-children:!has-siblings
 {
-    border-image: url(^style^branch_end_arrow.svg);
+    image: url(^style^branch_end_arrow.svg);
 }
 
 QTreeView::branch:closed:has-children:has-siblings,
 QTreeView::branch:open:has-children:has-siblings
 {
-    border-image: url(^style^branch_more_arrow.svg);
+    image: url(^style^branch_more_arrow.svg);
 }
 
 QTreeView::branch:open:has-children:!has-siblings,
