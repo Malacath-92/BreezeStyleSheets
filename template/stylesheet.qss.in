@@ -2407,33 +2407,25 @@ QProgressBar:horizontal,
 QProgressBar:vertical
 {
     background-color: ^midtone:dark^;
-    border: 0.9em solid ^background^;
+    border: 0.1em solid ^background^;
     border-radius: 0.13em;
     padding: 0em;
 }
 
 QProgressBar:horizontal
 {
-    height: 0.2em;
-    min-width: 6em;
-    text-align: right;
-    padding-left: -0.03em;
-    padding-right: -0.03em;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-    margin-right: 1.3em;
+    height: 6px;
+    min-width: 96px;
+    text-align: center;
+    margin: 2px 0;
 }
 
 QProgressBar:vertical
 {
-    width: 0.2em;
-    min-height: 6em;
-    text-align: bottom;
-    padding-top: -0.03em;
-    padding-bottom: -0.03em;
-    margin-left: 0.2em;
-    margin-right: 0.2em;
-    margin-bottom: 0.41em;
+    width: 6px;
+    min-height: 96px;
+    text-align: center;
+    margin: 0 2px 4px 2px;
 }
 
 QProgressBar::chunk:horizontal,
